@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".RegistrationActivity">
+
+
+
+    <EditText
+        android:id="@+id/RegistrationEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email.."
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textWebEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/RegistrationPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password.."
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/RegistrationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/RegistrationPageQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="If you already have an account? Directly Login"
+        android:textColor="#fff" />
+
+</LinearLayout>
